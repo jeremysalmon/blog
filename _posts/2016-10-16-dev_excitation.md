@@ -3,9 +3,7 @@ layout: post
 title: Développement et ... excitation
 published: true
 ---
-Mon premier programme date de plus de 25 ans. 
-
-J'ai encore dans ma mémoire tous les détails de ma chambre, de mon ordinateur, et des quelques livres que j'avais eu grand mal à réunir.
+Mon premier programme date de plus de 25 ans. J'ai encore dans ma mémoire tous les détails de ma chambre, de mon ordinateur, et des quelques livres que j'avais eu grand mal à réunir.
 
 Je me souviens particulièrement de [La bible du PC](http://www.decitre.fr/livres/pc-programmation-systeme-9782742905447.html) et de mes premières lignes de codes qui me permettaient de passer en [Mode 13](https://fr.wikipedia.org/wiki/Mode_13h). 320x200 en 256 couleurs ... De quoi s'éclater à afficher des images. Des images au format PCX pour lesquels j'avais dû écrire ma propre librairie.
 
