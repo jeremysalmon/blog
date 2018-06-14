@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Développement et ... excitationYou're up and running!
+title: Développement et ... excitation
 published: true
 ---
 Mon premier programme date de plus de 25 ans. 
