@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elon Musk Tesla, Paypal, SpaceX : l'entrepreneur qui va changer le monde
+title: Elon Musk Tesla, Paypal, SpaceX  l'entrepreneur qui va changer le monde
 published: true
 ---
 On parle souvent d’Elon Musk dans les médias technologiques. A part Tesla, je n’avais pas trop d’idées sur qui était ce bonhomme.
