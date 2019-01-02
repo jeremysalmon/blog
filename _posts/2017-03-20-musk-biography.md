@@ -3,7 +3,7 @@ layout: post
 title: Elon Musk Tesla, Paypal, SpaceX : l'entrepreneur qui va changer le monde
 published: true
 ---
-<img style=\"float: right;\" src=\"http://img.macg.co/2016/2/macgpic-1454861920-246618594530233-jpt.jpg\">On parle souvent d’Elon Musk dans les médias technologiques. A part Tesla, je n’avais pas trop d’idées sur qui était ce bonhomme.
+On parle souvent d’Elon Musk dans les médias technologiques. A part Tesla, je n’avais pas trop d’idées sur qui était ce bonhomme.
 Avec sa biographie [Elon Musk](https://www.amazon.fr/Elon-Musk-Ashlee-Vance/dp/2212563833) je sais maintenant pourquoi on parle aussi souvent de lui.
 La légende urbaine veut qu’il ai inspiré le personnage de Iron Man … Légende en effet, on apprend dans ce livre que c’est plutôt le jeu d’acteur de Downey Junior qu’il a inspiré.
 A la base il ne vient pas de n’importe quelle famille. Ses grands parents étaient des aventuriers, possédaient un avion et ont effectués de nombreux records. C'est apparemment le socle qui l'a fait quitter le Canada (aidé par un père qui aimait apparemment faire souffrir psychologiquement ses enfants).
