@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 27 questions à se poser avant de recruter un tech
+title: 30 questions à se poser avant de recruter un tech
 published: false
 ---
 
-Vous avez besoin de recuter un nouveau tech. Mais par ou commencer ? Fouiller des tonnes de CV déjà reçus ? Scrapper LinkedIn ? Ecrire un tweet attractif ?
+Vous avez besoin de recruter un nouveau tech. Mais par ou commencer ? Fouiller des tonnes de CV déjà reçus ? Scrapper LinkedIn ? Ecrire un tweet attractif ?
 
-Rien de tout çà sans au préalable avoir les réponses aux questions qui vont suivre.
+Attention ! Rien de tout çà sans au préalable avoir les réponses aux questions qui vont suivre.
 
-Comme il est de plus en plus difficile de trouver les talents il est important d'être bien préparer !
+Comme il est de plus en plus difficile de trouver les talents il est important d'être bien préparé et d'avoir une idée précise sur les attentes et le contexte dans lequel travaillera votre nouvelle recrue !
 
 ## Les aspects techniques
 
@@ -48,7 +48,11 @@ Quels problèmes le projet règle pour ses utilisateurs ? Quels sont les objectf
 
 ### 9. Quelle méthodologie de gestion de projet est utilisée ?
 
+Agile, Waterfall, Scrum, Kanban ... De nombreuses méthodologies de gestion de projets existent ... mais elles ne conviennent pas à tout le monde.
+
 ### 10. Quel est le ratio développement / maintenance
+
+L'ensemble des techs que vous rencontrerez seront plus interressés par le développement que la maintenance. Connaître le volume de chacune de ces tâches pour le poste à pourvoir est donc important.
 
 ### 11. Quelle taille a l'équipe a intégrer ? Quelle est sa structure ?
 
@@ -59,6 +63,10 @@ Quels problèmes le projet règle pour ses utilisateurs ? Quels sont les objectf
 ### 14. Est-ce que l'entreprise prend en charge des formations ?
 
 ### 15. Quels sont les horaires ?
+
+### XX. Est-il possible de télétravailler ?
+
+### XX. Existe-t-il un système 80/20 à la Google ?
 
 ### 16. Est-ce que l'équipe est sympathique ?
 
