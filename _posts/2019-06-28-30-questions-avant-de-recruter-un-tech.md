@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 30 questions à se poser avant de recruter un tech
-published: false
+published: true
 ---
 
 Vous avez besoin de recruter un nouveau _**tech**_. Mais par où commencer ? Fouiller des tonnes de CV déjà reçus ? Scraper LinkedIn ? Écrire un tweet attractif ?
