@@ -4,7 +4,7 @@ title: 30 questions à se poser avant de recruter un tech
 published: false
 ---
 
-Vous avez besoin de recruter un nouveau tech. Mais par où commencer ? Fouiller des tonnes de CV déjà reçus ? Scraper LinkedIn ? Écrire un tweet attractif ?
+Vous avez besoin de recruter un nouveau _**tech**_. Mais par où commencer ? Fouiller des tonnes de CV déjà reçus ? Scraper LinkedIn ? Écrire un tweet attractif ?
 
 Attention ! Rien de tout çà sans au préalable avoir les réponses aux questions qui vont suivre.
 
@@ -30,7 +30,7 @@ Quelle base de données utilisez-vous ? Quelles APIS ? Quel système de versionn
 
 ### 5. Qui maintient la documentation ? A quelle fréquence elle est mise à jour
 
-La rédaction de documentation rebute de nombreux techs. Aurait-il la responsabilité de documenter lui-même. Cette tâche sera-t-elle effectuée par une autre personne ? 
+La rédaction de documentation rebute de nombreux _**techs**_. Aurait-il la responsabilité de documenter lui-même. Cette tâche sera-t-elle effectuée par une autre personne ? 
 
 ### 6. Comment le code est testé
 
@@ -52,7 +52,7 @@ Agile, Waterfall, Scrum, Kanban ... De nombreuses méthodologies de gestion de p
 
 ### 10. Quel est le ratio développement / maintenance
 
-L'ensemble des techs que vous rencontrerez seront plus intéressés par le développement que la maintenance. Connaître le volume de chacune de ces tâches pour le poste à pourvoir est donc important.
+L'ensemble des _**techs**_ que vous rencontrerez seront plus intéressés par le développement que la maintenance. Connaître le volume de chacune de ces tâches pour le poste à pourvoir est donc important.
 
 ### 11. Quelle taille à l'équipe a intégrer ? Quelle est sa structure ?
 
@@ -145,6 +145,6 @@ Si c'est une création de poste, pour qu'elle raison ce poste a été créé ? E
 
 De nouvelles ou rares technologies sont-elles utilisées ? Des tâches stimulantes ? Des voyages à prévoir ?
 
-### 30. Comment avez-vous trouvé vos précédentes techs ?
+### 30. Comment avez-vous trouvé vos précédentes _**techs**_ ?
 
-Vous avez surement un canal de sourcing qui a précédemment donné de bons résultats pour trouver vos "techs stars" actuels. Alors pourquoi ne pas recommencer ...
+Vous avez surement un canal de sourcing qui a précédemment donné de bons résultats pour trouver vos _**"techs stars"**_ actuels. Alors pourquoi ne pas recommencer ...
