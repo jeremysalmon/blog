@@ -107,9 +107,48 @@ __Version 2021 :__
 
 ### 9. Utilisez-vous les meilleurs outils 
 
+__Version 2000 :__
+
+Dans l'article on parle de processeur un peu trop lent à la compilation et qui pousse les devs à faire autre chose, du fait de mettre un deuxième écran, d'acheter des logiciels pour par exemple faire des icônes, d'avoir des disques durs trop petits pour stocker toutes ses informations ... et de rendre les programmeurs malheureux et grincheux en ne leur mettant pas du bon matériel à disposition.
+
+__Version 2021 :__
+
+Aujourd'hui toutes les barrières en termes de coûts ont disparues, le matériel est surpuissant à des coûts tout à faire abordables, le cloud nous permet d'avoir tout le volume de stockage, la puissance de calcul et les logiciels au meilleur prix.
+
 ### 10. Avez-vous des testeurs
+
+__Version 2000 :__
+
+Il est dommage de payer des développeurs à $100/h alors que le travail pourrait être fait par un test à $30/h.
+
+__Version 2021 :__
+
+Les développeurs ont de plus en plus l'habitude d'écrire des tests unitaires et des tests fonctionnels lorsqu'ils développent des applications. Parfois même, ce sont les tests qui guident le développement quand on utilise des méthodes comme [TDD](https://fr.wikipedia.org/wiki/Test_driven_development) par exemple.
+
+Des outils comme [PHPUnit](https://phpunit.de/), [PYUnit](https://docs.python.org/3/library/unittest.html) ou encore [Selenium](https://www.selenium.dev/) permettent d'automatiser les tests en les intégrants dans votre flux d'intégration continue.
+
+Et s'ils vous manque des tests des plateformes comme [Fiverr](https://www.fiverr.com) ou [Upwork](https://www.upwork.com/) vous permettent d'embaucher des testeurs à la tâches et à des prix défiants toute concurrence.
 
 ### 11. Est-ce que vos candidats écrivent du code durant les entretiens 
 
+Est-ce que vous embaucheriez un magicien sans qu'il vous montre un tour, ou un traiteur pour votre mariage sans goûter sa nourriture. Alors pourquoi embaucher un développeurs sans lui demander de faire du code ?
+
+__Version 2021 :__
+
+Les entretiens pour les développeurs sont devenus depuis une dizaine d'années de plus en plus techniques. Des livres sont même dédiés à ce sujet comme [Cracking the coding interview](https://www.amazon.fr/Cracking-Coding-Interview-6th-Programming/dp/0984782850) ou bien encore [Elements of Programming INterview : The Inside's Guide](https://www.amazon.com/dp/1479274836/?tag=javamysqlanta-20).
+
+Cette pratique est maintenant entrée dans les moeurs et ne surprend plus aucun candidat.
+
 ### 12. Faites vous des tests aléatoires d'*utilisabilité*
 
+Attraper quelqu'un dans le couloir et faites lui tester votre application. Répétez celà sur 5 personnes et vous aurez 95% de vos problèmes d'interfaces qui ressortiront.
+
+__Version 2021 :__
+
+Les méthodes agiles nous permettent d'itérer et la prise en charge des modifications demandées par les utilisateurs au fur et à mesure du développement est maintenant une pratique communément admise.
+
+Des outils de maquettage comme [Adobe XD](https://www.adobe.com/fr/products/xd.html) ou [Figma](https://www.figma.com/) permettent également de montrer facilement et de leur permettre de naviguer aux futurs utilisateurs.
+
+Les interfaces se sont également beaucoup uniformisé autour de documents de référence comme le [Material Design](https://material.io/design) de Google ou le [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) de Apple.
+
+Parrallèlement les frameworks et librairies comme [Tailwindcss](https://tailwindcss.com/), [Bootstrap](https://getbootstrap.com/) oue encore [Material-UI](https://material-ui.com) permettent d'utiliser des composants génériques que les utilisateurs voient sur l'ensemble des applications qu'ils utilisent.
