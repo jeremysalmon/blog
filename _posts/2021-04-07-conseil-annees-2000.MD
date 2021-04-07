@@ -172,3 +172,21 @@ Des outils de maquettage comme [Adobe XD](https://www.adobe.com/fr/products/xd.h
 Les interfaces se sont également beaucoup uniformisé autour de documents de référence comme le [Material Design](https://material.io/design) de Google ou le [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) de Apple.
 
 Parrallèlement les frameworks et librairies comme [Tailwindcss](https://tailwindcss.com/), [Bootstrap](https://getbootstrap.com/) oue encore [Material-UI](https://material-ui.com) permettent d'utiliser des composants génériques que les utilisateurs voient sur l'ensemble des applications qu'ils utilisent.
+
+# Conclusion 2021
+
+En 20 ans les technologies et méthodologies ont complétement étaient transformées. L'informatique des années 2000 ne ressemble plus à l'informatique d'aujourd'hui. L'hyperconnectivité, l'abandon des clients lours au bénéfice d'applications fonctionnant dans des navigateurs web et les outils que nous utilisons facilitent grandement le développement.
+
+Néanmoins la quasi totalité des points évoqués [dans l'article original](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) restent d'actualité.
+
+En analysant ces points on se rend bien compte que l'industrialisation des processus de développement est bien en train de se faire. Je ne sais combien d'années ils a fallut pour avoir des process précis pour la construction immobilière, la gestion de la santé ou la mise en place de banques, mais on voit bien qu'en 20 ans de solides méthodes se sont mis en place et nous donne des solutions utilisées par des millions (voir des milliards) d'utilisateur.
+
+Aujourd'hui il devient quasiment impossible a un développeur sérieux de ne pas utiliser de gestion de sources, de tests ou d'outils de déploiement. Ceci est récent (pour moi je pense moins de 8 ans).
+
+Nous avons été tout de même été secoués depuis une dizaine d'années par l'arrivée ultra rapide d'un foisonnement de technologies, de Framework et de méthodes qui ont pu donnéer le tournis (voir du découragement) a pas mal de personne.
+
+Aujourd'hui les choses semblent se calmer (relativement) les languages utilisés ont dans la majorité des cas plusieurs dizainez d'années, les Frameworks se stabilisent autour de méthodes communes et les grosses *hypes* commencent a diminuer.
+
+On ne peut, je pense, qu'être rassuré par l'avenir. J'espère que le métier de développeur deviendra plus standardisé (pour le bien mental et familial de tous) avec des méthodes qui viseront a polir un peu le flou artistique qu'il peut parfois y avoir au sein de projets de développement.
+
+Il restera je l'espère de la place pour le côté "hacker" du métier de développeurs avec des outils tels que les Raspberry, les outils d'intelligence artificielle (vision, analyse de données ...)
