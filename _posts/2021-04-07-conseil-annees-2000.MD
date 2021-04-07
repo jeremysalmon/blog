@@ -101,9 +101,29 @@ La planification n'est donc plus vraiment placée au même niveau. Nous raisonno
 
 __Version 2000 :__
 
+Les spécifications reprenaient toutes les fonctionnalités que l'application devait implémenter. Des méthodes comme [Merise](https://fr.wikipedia.org/wiki/Merise_(informatique)) ou [UML](https://fr.wikipedia.org/wiki/UML_(informatique)) permettait de structurer son projet et de poser d'une façon précise l'ensemble des spécifications.
+
 __Version 2021 :__
 
+Les méthodes agiles ont changées la donne, en se basant plus sur des [Récits Utilisateurs](https://fr.wikipedia.org/wiki/R%C3%A9cit_utilisateur) que sur de longues spécifications crées en amont du lancement du projet de développement.
+
 ### 8. Est-ce que les développeurs ont des conditions de travail tranquilles
+
+__Version 2000 :__
+
+On parle déjà de la nécessité pour un développeur d'entrer *dans le Flow* ou "dans la zone", ce moment de super-concentration ou le temps n'existe plus et les idées sont fluides. C'est particulièrement pour un développeur qui doit se mettre un *contexte* en tête et ne plus en sortir avant d'avoir résolu son problème.
+
+Rappelons tout de même le contexte des années 2000. Pas de smartphone, un Internet très limité, pas de réseaux sociaux ... Je me souviens que ma productivité était meilleure en ces temps là ... mais c'était peut-être la jeunesse ;).
+
+__Version 2021 :__
+
+Ici nous avons plutôt été a reculons. Smartphone, réseaux sociaux omniprésents, outils de communication multicanaux, Internet a outrance ... font qu'*entrer dans la zone" est de plus en plus difficile même avec la meilleur volonté du monde.
+
+Des méthodes comme [Pomodoro](https://fr.wikipedia.org/wiki/Technique_Pomodoro) essaye tant bien que mal de concentrer le flux d'attention des développeurs sur des périodes de 25 min.
+
+De nouveaux objets sont également présents comme les casques audio qui nous permettent de nous isoler ...
+
+Mais sur ce point, je suis plutôt d'avis pessimiste et je pense qu'en 2000 les conditions étaient bien meilleures pour réussir une entrée dans le *Flow*
 
 ### 9. Utilisez-vous les meilleurs outils 
 
