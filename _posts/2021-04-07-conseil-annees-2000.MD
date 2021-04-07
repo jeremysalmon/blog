@@ -73,9 +73,35 @@ Aujourd'hui nous avons de nombreux outils qui nous permettent de facilement regr
 
 ### 5. Corrigez-vous les bugs avant d'écrire du nouveau code
 
+Joel nous parle de la désastreuse mauvaise gestion du développement des premières versions de Microsoft Word. Des développeurs qui se ruent sur le code, pas de corrections de bugs. un planning de fonctionnalités basé sur une checklist de fonctionnalités *"a convertir en bug"*.
+
+Puis ils sont passés à une méthode "Zéro Défaut" qui mettait la priorité sur la correction de bugs, avant l'implémentation de nouvelles fonctionnalités.
+
+Corriger un bug *frais* prendra toujours moins de temps que d'entretenir une dette technique qui s'accumule, grossit et décourage tout le monde quand il faut se mettre à faire les corrections.
+
+Et avoir une base de code en permanence exempte de bugs permet de réagir plus vite à un concurrent qui introduit une *killer* feature dans sa solution.
+
+__Version 2021 :__
+
+Dans les années 2000 on faisait encore dans la majorité des cas des logiciels [comme des Cathédrales](https://fr.wikipedia.org/wiki/La_Cath%C3%A9drale_et_le_Bazar) et il était courant de développer pendant des mois voir des années avant de sortir une première version de production.
+
+Aujourd'hui les [méthodes agiles](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile), le [Release early, Release often](https://fr.wikipedia.org/wiki/Release_early,_release_often) rendent ce point 5 un peu caduque.
+
+Les habitudes des développeurs, des managers et des clients sont maintenant orientés vers des mises en production rapide et des applications  qui s'améliorent pas incrément.
+
 ### 6. Tenez-vous un planning à jour
 
+La planification des projets de développement était en 2000 et reste en 2021 une étape douloureuse, difficile et souvent râtée.
+
+Toutefois, comme nous l'avons vu dans le point 5, les applications de 2021 ne sont plus des monolithes développés pendant des mois. 
+
+La planification n'est donc plus vraiment placée au même niveau. Nous raisonnons en [sprints](https://searchsoftwarequality.techtarget.com/definition/Scrum-sprint) de courtes durées (de quelques jours à quelques semaines) et les premières versions arrivent généralement en moins d'une année ce qui facilite grandement le positionnement de jalons auprès des managers et des clients.
+
 ### 7. Avez-vous des specifications
+
+__Version 2000 :__
+
+__Version 2021 :__
 
 ### 8. Est-ce que les développeurs ont des conditions de travail tranquilles
 
