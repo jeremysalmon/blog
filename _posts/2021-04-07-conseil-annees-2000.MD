@@ -6,11 +6,11 @@ published: false
 
 En parcourant mes flux RSS cette semaine, je suis tombé sur un article de 2000 qui était remonté dans Hacker News ... et qui donnait 12 conseils pour faire du meilleur code et donc mieux réussir ses projets.
 
-On pourrait se dire que 20 ans après et des tsunamis de technologies aidant, cet article ne vaudrait plus grand chose ... Mais *que nenni*. A sa lecture, cet article nous renvoit aux fondamentaux et c'est pour celà qu'il faut la peine d'être remis en exergue.
+On pourrait se dire que 20 ans après et des tsunamis de technologies aidant, cet article ne vaudrait plus grand chose ... Mais *que nenni*. A sa lecture, l'auteur nous renvoit aux fondamentaux et c'est pour celà qu'il faut la peine d'être remis en exergue.
 
 On part donc d'un postulat simple. 12 questions à se poser, un point par question ou vous répondez *OUI*. Un 12 est parfait, 11 est tolérable mais 10 et moins et vous vous dirigez vers les problèmes.
 
-D'après [Joel Spolsky](https://www.joelonsoftware.com) l'auteur de l'article, la majorité des entreprises qui font du développement sont à 2 ou 3 points !
+D'après [Joel Spolsky](https://www.joelonsoftware.com) l'auteur de l'article, la majorité des entreprises qui font du développement sont à 2 ou 3 points ... mais çà c'était en 2000.
 
 ### 1. Utilisez-vous un outil de gestion de versions
 
@@ -20,33 +20,33 @@ __Version 2000 :__
 Ici il utilise CVS, qui est un système de gestion de version centralisée, dont la dernière version est sortie en 2008.
 
 __Version 2021 :__
-Aujourd'hui, les choses sont bien différentes, mais le principe reste le même. Les systèmes de contrôle de versions sont décentralisés permettant à chacun de travailler à son rythme et surtout sans être connecté au gestionnaire de versions en permanence.
+Aujourd'hui, les choses sont bien différentes, mais le principe reste le même. Les systèmes de contrôle de versions sont décentralisés permettant à chacun de travailler à son rythme et surtout sans avoir besoin d'être connecté au gestionnaire de versions en permanence.
 
 Le logiciel qui a pris le plus de parts de marché est [Git](https://git-scm.com/), donc la première version est sortie en 2005. De nombreuses solutions comme [Github](https://www.github.com) ou [GitLab](https://www.gitlab.com) sont venus se greffer à Git permettant de faciliter et d'intégrer des outils complémentaires.
 
 ### 2. Pouvez-vous "compiler" en une étape
 
-L'objectif est de mettre en production le plus simplement possible la dernière version stable contenue dans le gestion de versions.
+L'objectif est de mettre en production le plus simplement possible la dernière version stable contenue dans le gestionnaire de versions.
 
 __Version 2000 :__
 
 L'auteur nous dit que l'idéal est d'avoir un script unique qui permet de récupérer du gestionnaire de version, recompiler, créer les executables, créer le package d'installation ...
 
-Il nous dit que s'il faut de nombreuses étapes pour arriver à une livraison, on devient vite fou et surtout on a un potentiel d'erreur beaucoup plus élevé.
+Pour lui, plus nombreuses sont les étapes pour arriver à une livraison, plus vite on devient fou et surtout on augmente les possibilités d'occurences d'erreurs humaines.
 
 __Version 2021 :__
 
-Ici on est passé un cran au dessus. On parle de CI/CD (Intégration Continue / Déploiement Continu) et l'optimisation est poussé a son extrême puisque qu'il n'y a même plus besoin de lancer un quelconque script manuellement.
+Ici on est passé un cran au dessus. On parle de CI/CD (Intégration Continue / Déploiement Continu) et l'optimisation est poussée à son extrême puisque qu'il n'y a même plus besoin de lancer un quelconque script manuellement.
 
 En effet, un simple *pull request* dans la branche de production du gestionnaire de versions et tout le système se met en branle ...
 
-L'intégration continue va par *builder*, lancer les tests et merger avec la branche de production si tout s'est passé correctement.
+L'intégration continue va *builder*, lancer les tests et merger avec la branche de production si tout c'est passé correctement.
 
-Le déploiement continu và quand à lui détecteer la nouveelle version et la déployer dans l'infrastructure de production automatiquement.
+Le déploiement continu và quand à lui détecter la nouvelle version et la déployer dans l'infrastructure de production automatiquement.
 
-Des outils comme [Jenkins](https://www.jenkins.io/), [Teamcity](https://www.jetbrains.com/fr-fr/teamcity/), [Github Actions](https://github.com/features/actions) ou [Gitlab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) vous permettront de mettre en place votre flux d'intégration continue.
+Des outils comme [Jenkins](https://www.jenkins.io/), [Teamcity](https://www.jetbrains.com/fr-fr/teamcity/), [Github Actions](https://github.com/features/actions) ou [Gitlab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) permettent de mettre en place votre flux d'intégration continue simplement.
 
-[DeployBot](https://deploybot.com/), [AWS CodeDeploy](https://aws.amazon.com/fr/codedeploy/) ou encore [Bamboo](https://www.atlassian.com/fr/software/bamboo) permettront quand à eux de déployer vos applications sur les différentes infrastructures de production.
+[DeployBot](https://deploybot.com/), [AWS CodeDeploy](https://aws.amazon.com/fr/codedeploy/) ou encore [Bamboo](https://www.atlassian.com/fr/software/bamboo) permettent quand à eux de déployer vos applications sur les différentes infrastructures de production.
 
 ### 3. Faites-vous une compilation journalière
 
@@ -63,13 +63,13 @@ L'objectif est de centraliser et surtout de recueillir le maximum d'informations
 
 __Version 2000 :__
 
-L'auteur ne recommande pas d'outil en particulier mais indique que si une solution de gestion de bugs semble trop compliquée (ce qui peut indiquer qu'il n'y avait pas vraiment de solution mature grand publique) une table ou un tableur avec quelques colonnes peuvent faire l'affaire.
+L'auteur ne recommande pas d'outil en particulier mais indique que si une solution de gestion de bugs semble trop compliquée (ce qui peut indiquer qu'il n'y avait pas vraiment de solution mature grand publique en 2000) une table ou un tableur avec quelques colonnes peuvent faire l'affaire.
 
 __Version 2021 :__
 
 Aujourd'hui nous avons de nombreux outils qui nous permettent de facilement regrouper les bugs et surtout interragir et suivre l'avancement et la résolution de façon fluide.
 
-[Les Issues de Github](https://docs.github.com/en/github/managing-your-work-on-github/about-issues), [les Issues de GitLab](https://docs.gitlab.com/ee/user/project/issues/) ou des outils comme [Jira](https://www.atlassian.com/fr/software/jira) ou [YouTrack](https://www.jetbrains.com/fr-fr/youtrack/) sont rapidement mis en place et intégrés dans les habitudes des développeurs
+[Les Issues de Github](https://docs.github.com/en/github/managing-your-work-on-github/about-issues), [les Issues de GitLab](https://docs.gitlab.com/ee/user/project/issues/) ou des outils comme [Jira](https://www.atlassian.com/fr/software/jira) ou [YouTrack](https://www.jetbrains.com/fr-fr/youtrack/) sont rapidement mis en place et intégrés dans les habitudes des développeurs.
 
 ### 5. Corrigez-vous les bugs avant d'écrire du nouveau code
 
@@ -79,7 +79,7 @@ Puis ils sont passés à une méthode "Zéro Défaut" qui mettait la priorité s
 
 Corriger un bug *frais* prendra toujours moins de temps que d'entretenir une dette technique qui s'accumule, grossit et décourage tout le monde quand il faut se mettre à faire les corrections.
 
-Et avoir une base de code en permanence exempte de bugs permet de réagir plus vite à un concurrent qui introduit une *killer* feature dans sa solution.
+Et avoir une base de code en permanence exempte de bugs permet de réagir plus vite à un concurrent qui introduit une *killer* feature dans sa solution pour vous concurrencer.
 
 __Version 2021 :__
 
@@ -111,7 +111,7 @@ Les méthodes agiles ont changées la donne, en se basant plus sur des [Récits 
 
 __Version 2000 :__
 
-On parle déjà de la nécessité pour un développeur d'entrer *dans le Flow* ou "dans la zone", ce moment de super-concentration ou le temps n'existe plus et les idées sont fluides. C'est particulièrement pour un développeur qui doit se mettre un *contexte* en tête et ne plus en sortir avant d'avoir résolu son problème.
+On parle déjà de la nécessité pour un développeur d'entrer *dans le Flow* ou "dans la zone", ce moment de super-concentration ou le temps n'existe plus et les idées sont fluides. C'est particulièrement vrai pour un développeur qui doit se mettre un *contexte* en tête et ne plus en sortir avant d'avoir résolu son problème.
 
 Rappelons tout de même le contexte des années 2000. Pas de smartphone, un Internet très limité, pas de réseaux sociaux ... Je me souviens que ma productivité était meilleure en ces temps là ... mais c'était peut-être la jeunesse ;).
 
@@ -121,7 +121,7 @@ Ici nous avons plutôt été a reculons. Smartphone, réseaux sociaux omniprése
 
 Des méthodes comme [Pomodoro](https://fr.wikipedia.org/wiki/Technique_Pomodoro) essaye tant bien que mal de concentrer le flux d'attention des développeurs sur des périodes de 25 min.
 
-De nouveaux objets sont également présents comme les casques audio qui nous permettent de nous isoler ...
+De nouveaux objets comme les casques audio qui nous permettent de nous isoler font également parti des habitudes de travail actuelle ...
 
 Mais sur ce point, je suis plutôt d'avis pessimiste et je pense qu'en 2000 les conditions étaient bien meilleures pour réussir une entrée dans le *Flow*
 
@@ -133,7 +133,7 @@ Dans l'article on parle de processeur un peu trop lent à la compilation et qui 
 
 __Version 2021 :__
 
-Aujourd'hui toutes les barrières en termes de coûts ont disparues, le matériel est surpuissant à des coûts tout à faire abordables, le cloud nous permet d'avoir tout le volume de stockage, la puissance de calcul et les logiciels au meilleur prix.
+Aujourd'hui toutes les barrières en termes de coûts ont disparues, le matériel est surpuissant à des tarifs tout à faire abordables, le cloud nous permet d'avoir tout le volume de stockage, la puissance de calcul et les logiciels au meilleur prix.
 
 ### 10. Avez-vous des testeurs
 
@@ -147,15 +147,15 @@ Les développeurs ont de plus en plus l'habitude d'écrire des tests unitaires e
 
 Des outils comme [PHPUnit](https://phpunit.de/), [PYUnit](https://docs.python.org/3/library/unittest.html) ou encore [Selenium](https://www.selenium.dev/) permettent d'automatiser les tests en les intégrants dans votre flux d'intégration continue.
 
-Et s'ils vous manque des tests des plateformes comme [Fiverr](https://www.fiverr.com) ou [Upwork](https://www.upwork.com/) vous permettent d'embaucher des testeurs à la tâches et à des prix défiants toute concurrence.
+Et s'ils vous manque des tests, des plateformes comme [Fiverr](https://www.fiverr.com) ou [Upwork](https://www.upwork.com/) vous permettent d'embaucher des testeurs à la tâches et à des prix défiants toute concurrence.
 
 ### 11. Est-ce que vos candidats écrivent du code durant les entretiens 
 
-Est-ce que vous embaucheriez un magicien sans qu'il vous montre un tour, ou un traiteur pour votre mariage sans goûter sa nourriture. Alors pourquoi embaucher un développeurs sans lui demander de faire du code ?
+Est-ce que vous embaucheriez un magicien sans qu'il vous montre un tour, ou un traiteur pour votre mariage sans goûter sa nourriture. Alors pourquoi embaucher un développeur sans lui demander de faire du code ?
 
 __Version 2021 :__
 
-Les entretiens pour les développeurs sont devenus depuis une dizaine d'années de plus en plus techniques. Des livres sont même dédiés à ce sujet comme [Cracking the coding interview](https://www.amazon.fr/Cracking-Coding-Interview-6th-Programming/dp/0984782850) ou bien encore [Elements of Programming INterview : The Inside's Guide](https://www.amazon.com/dp/1479274836/?tag=javamysqlanta-20).
+Les entretiens pour les développeurs sont devenus depuis une dizaine d'années de plus en plus techniques. Des livres sont même dédiés à ce sujet comme [Cracking the coding interview](https://www.amazon.fr/Cracking-Coding-Interview-6th-Programming/dp/0984782850) ou bien encore [Elements of Programming Interview : The Inside's Guide](https://www.amazon.com/dp/1479274836/?tag=javamysqlanta-20).
 
 Cette pratique est maintenant entrée dans les moeurs et ne surprend plus aucun candidat.
 
@@ -167,26 +167,26 @@ __Version 2021 :__
 
 Les méthodes agiles nous permettent d'itérer et la prise en charge des modifications demandées par les utilisateurs au fur et à mesure du développement est maintenant une pratique communément admise.
 
-Des outils de maquettage comme [Adobe XD](https://www.adobe.com/fr/products/xd.html) ou [Figma](https://www.figma.com/) permettent également de montrer facilement et de leur permettre de naviguer aux futurs utilisateurs.
+Des outils de maquettage comme [Adobe XD](https://www.adobe.com/fr/products/xd.html) ou [Figma](https://www.figma.com/) permettent également de montrer facilement et de autorisent les futurs utilisateurs à naviguer.
 
-Les interfaces se sont également beaucoup uniformisé autour de documents de référence comme le [Material Design](https://material.io/design) de Google ou le [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) de Apple.
+Les interfaces se sont également beaucoup uniformisées autour de documents de référence comme le [Material Design](https://material.io/design) de Google ou le [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) de Apple.
 
 Parrallèlement les frameworks et librairies comme [Tailwindcss](https://tailwindcss.com/), [Bootstrap](https://getbootstrap.com/) oue encore [Material-UI](https://material-ui.com) permettent d'utiliser des composants génériques que les utilisateurs voient sur l'ensemble des applications qu'ils utilisent.
 
 # Conclusion 2021
 
-En 20 ans les technologies et méthodologies ont complétement étaient transformées. L'informatique des années 2000 ne ressemble plus à l'informatique d'aujourd'hui. L'hyperconnectivité, l'abandon des clients lours au bénéfice d'applications fonctionnant dans des navigateurs web et les outils que nous utilisons facilitent grandement le développement.
+En 20 ans les technologies et méthodologies ont complétement été transformées. L'informatique des années 2000 ne ressemble plus à l'informatique d'aujourd'hui. L'hyperconnectivité, l'abandon des clients lours au bénéfice d'applications fonctionnant dans des navigateurs web et les outils que nous utilisons facilitent grandement le développement.
 
 Néanmoins la quasi totalité des points évoqués [dans l'article original](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) restent d'actualité.
 
-En analysant ces points on se rend bien compte que l'industrialisation des processus de développement est bien en train de se faire. Je ne sais combien d'années ils a fallut pour avoir des process précis pour la construction immobilière, la gestion de la santé ou la mise en place de banques, mais on voit bien qu'en 20 ans de solides méthodes se sont mis en place et nous donne des solutions utilisées par des millions (voir des milliards) d'utilisateur.
+En analysant ces points on se rend bien compte que l'industrialisation des processus de développement est bien en train de se faire. Je ne sais combien d'années il a fallut pour avoir des process précis pour la construction immobilière, la gestion de la santé ou la mise en place de banques, mais on voit bien qu'en 20 ans, de solides méthodes se sont mise en place et nous donne des solutions utilisées par des millions (voir des milliards) d'utilisateurs.
 
-Aujourd'hui il devient quasiment impossible a un développeur sérieux de ne pas utiliser de gestion de sources, de tests ou d'outils de déploiement. Ceci est récent (pour moi je pense moins de 8 ans).
+Aujourd'hui il devient quasiment impossible a un développeur sérieux de ne pas utiliser de gestion de sources, de tests ou d'outils de déploiement. Cette situation  est récente (pour moi je pense moins de 8 ans) mais ne cesse de se démocratiser grâce à l'intégration dans les cursus des écoles ou à tous les tutoriels qui nous orientent vers ce genre de pratique.
 
-Nous avons été tout de même été secoués depuis une dizaine d'années par l'arrivée ultra rapide d'un foisonnement de technologies, de Framework et de méthodes qui ont pu donnéer le tournis (voir du découragement) a pas mal de personne.
+Nous avons été tout de même secoués depuis une dizaine d'années par l'arrivée ultra rapide d'un foisonnement de technologies, de Framework et de méthodes qui ont pu donnéer le tournis (voir du découragement) à pas mal de personne.
 
-Aujourd'hui les choses semblent se calmer (relativement) les languages utilisés ont dans la majorité des cas plusieurs dizainez d'années, les Frameworks se stabilisent autour de méthodes communes et les grosses *hypes* commencent a diminuer.
+Aujourd'hui les choses semblent se calmer (relativement), les languages utilisés ont dans la majorité des cas plusieurs dizaines d'années, les Frameworks se stabilisent autour de méthodes communes et les grosses *hypes* commencent a diminuer.
 
 On ne peut, je pense, qu'être rassuré par l'avenir. J'espère que le métier de développeur deviendra plus standardisé (pour le bien mental et familial de tous) avec des méthodes qui viseront a polir un peu le flou artistique qu'il peut parfois y avoir au sein de projets de développement.
 
-Il restera je l'espère de la place pour le côté "hacker" du métier de développeurs avec des outils tels que les Raspberry, les outils d'intelligence artificielle (vision, analyse de données ...)
+Il restera je l'espère de la place pour le côté "hacker" du métier de développeur avec des outils tels que les Raspberry, les outils d'intelligence artificielle (vision, analyse de données ...) et bien sûr la participation à des projets Open Source.
