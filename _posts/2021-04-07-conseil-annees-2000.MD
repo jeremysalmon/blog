@@ -1,6 +1,6 @@
 ---
 layout: post
-title: De bons conseils ... des années 2000 ... pour un meilleur code
+title: De bons conseils ... des années 2000 mais toujours d'actualité
 published: true
 ---
 
