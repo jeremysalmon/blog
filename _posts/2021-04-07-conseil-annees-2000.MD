@@ -1,7 +1,7 @@
 ---
 layout: post
 title: De bons conseils ... des années 2000 ... pour un meilleur code
-published: false
+published: true
 ---
 
 En parcourant mes flux RSS cette semaine, je suis tombé sur un article de 2000 qui était remonté dans Hacker News ... et qui donnait 12 conseils pour faire du meilleur code et donc mieux réussir ses projets.
